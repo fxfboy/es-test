@@ -2,7 +2,7 @@ version: '3'
 services:
   elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch:8.0.1
-    container_name: "elasticsearch"
+    container_name: elasticsearch
     ports:
       - 9200:9200
       - 9300:9300
@@ -21,3 +21,4 @@ services:
       - elasticsearch
     ports:
       - 5601:5601
+
