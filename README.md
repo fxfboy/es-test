@@ -34,3 +34,7 @@
  28 # Project namespace (defaults to the current folder name if not set)
  29 #COMPOSE_PROJECT_NAME=myproject
 ```
+
+![arch](es-arch.png)
+
+https://www.cnblogs.com/strongchenyu/p/13777596.html
