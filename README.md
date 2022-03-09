@@ -11,7 +11,7 @@
   5 KIBANA_PASSWORD=
   6 
   7 # Version of Elastic products
-  8 STACK_VERSION=8.0.1
+  8 STACK_VERSION=8.0.0
   9 
  10 # Set the cluster name
  11 CLUSTER_NAME=docker-cluster
