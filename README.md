@@ -1,7 +1,5 @@
 # A repo for ElasticSearch and Kibana testing
 
-- [Start ElasticSearch and Kibana in Docker](https://www.elastic.co/guide/en/elastic-stack-get-started/current/get-started-stack-docker.html#run-docker-secure)
-
 ## .env
 ```
  # Password for the 'elastic' user (at least 6 characters)
@@ -37,5 +35,6 @@
 
 ![arch](es-arch.png)
 
-https://www.cnblogs.com/strongchenyu/p/13777596.html
-https://github.com/mobz/elasticsearch-head
+- [Start ElasticSearch and Kibana in Docker](https://www.elastic.co/guide/en/elastic-stack-get-started/current/get-started-stack-docker.html#run-docker-secure)
+- [How to search in PDF and Word files](https://www.cnblogs.com/strongchenyu/p/13777596.html)
+- [A Elasticsearch UI](https://github.com/mobz/elasticsearch-head)
