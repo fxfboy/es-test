@@ -1,13 +1,13 @@
 # A repo for ElasticSearch and Kibana testing
 
-## .env
+1. create `.env` file in the root folder
 
 ```
 # Password for the 'elastic' user (at least 6 characters)
-ELASTIC_PASSWORD=aq1sw2de
+ELASTIC_PASSWORD=
 
 # Password for the 'kibana_system' user (at least 6 characters)
-KIBANA_PASSWORD=aq1sw2de
+KIBANA_PASSWORD=
 
 # Version of Elastic products
 STACK_VERSION=8.0.0
@@ -33,6 +33,9 @@ MEM_LIMIT=1073741824
 # Project namespace (defaults to the current folder name if not set)
 #COMPOSE_PROJECT_NAME=myproject
 ```
+
+2. Run `docker-compose up -d`
+3. Access http://localhost:5672
 
 ![arch](es-arch.png)
 
