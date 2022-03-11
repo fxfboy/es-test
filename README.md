@@ -37,6 +37,8 @@ MEM_LIMIT=1073741824
 2. Run `docker-compose up -d`
 3. Access http://localhost:5672
 
+## References:
+
 ![arch](es-arch.png)
 
 - [Start ElasticSearch and Kibana in Docker](https://www.elastic.co/guide/en/elastic-stack-get-started/current/get-started-stack-docker.html#run-docker-secure)
